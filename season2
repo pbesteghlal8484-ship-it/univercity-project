@@ -1,0 +1,110 @@
+x = "Hello World" 
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = 20
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = ["apple", "banana", "cherry"]
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = frozenset({"apple", "banana", "cherry"})
+#display x:
+print(x)
+#display the data type of x:
+print(type(x))x = str("Hello World")
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = int(20)
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = list(("apple", "banana", "cherry"))
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+x = bool(5)
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) x = 1 # int
+y = 2.8 # float
+z = 1j # complex
+x = 1
+y = 35656222554887711
+z = -3255522
+print(type(x))
+print(type(y))
+print(type(z))
+x = 1.10
+y = 1.0
+z = -35.59
+print(type(x))
+print(type(y))
+print(type(z))
+x = 3+5j
+y = 5j
+z = -5j
+print(type(x))
+print(type(y))
+print(type(z))#convert from int to float:
+x = float(1)
+#convert from float to int:
+y = int(2.8)
+#convert from int to complex:
+z = complex(1)
+print(x)
+print(y)
+print(z)
+print(type(x))
+print(type(y))
+print(type(z))age = 36
+#This will produce an error:
+txt = "My name is John, I am " + age
+print(txt) name = "Alice"
+age = 30
+greeting = f"Hello, I'm {name} and I'm {age} years old."
+print(greeting) # 
+Output: Hello, I'm Alice and I'm 30 years oldx = 10
+y = 20
+result = f"The sum of {x} and {y} is {x + y}."
+print(result) # 
+Output: The sum of 10 and 20 is 30.
+txt = 'It\'s alright.'
+print(txt) 
+txt = "This will insert one \\ (backslash)."
+print(txt) 
+txt = "Hello\nWorld!"
+print(txt) 
+txt = "Hello\rWorld!"
+print(txt)
+txt = "Hello\tWorld!"
+print(txt) 
+#This example erases one character (backspace):
+txt = "Hello \bWox = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is z)
+# returns True because z is the same object as x
+print(x is y)
+# returns False because x is not the same object as y, 
+even if they have the same content
+print(x == y)
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is not z)
+# returns False because z is the same object as x
+print(x is not y)
+#returns True because x is not the same object as y, even 
+if they have the same content
+print(x != y)
